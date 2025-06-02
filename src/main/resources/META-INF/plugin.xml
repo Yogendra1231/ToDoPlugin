@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>com.example.todo</id>
+    <name>TODO Highlighter</name>
+    <version>1.0</version>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="TODOs"
+                    anchor="right"
+                    factoryClass="ui.TodoToolWindowFactory"/>
+    </extensions>
+
+    <projectListeners>
+        <listener class="listeners.FileOpenListener"
+                  topic="com.intellij.openapi.fileEditor.FileEditorManagerListener"/>
+    </projectListeners>
+</idea-plugin>
