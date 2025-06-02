@@ -16,7 +16,7 @@ This is a lightweight IntelliJ IDEA plugin that automatically highlights `TODO` 
 - Gradle
 - IntelliJ Plugin SDK (`org.jetbrains.intellij`)
 
-## 📦 Getting Started
+ 
 
 ### Prerequisites
 
